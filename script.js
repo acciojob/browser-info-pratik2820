@@ -7,5 +7,6 @@ const div = document.getElementById("browser-info");
       
       const message = `You are using ${browserName} (version ${browserVersion}).`;
       
-      document.getElementById("browser-info").textContent = message;
-div.append(message);
+      // document.getElementById("browser-info").textContent = message;
+// div.append(message);
+div.innerText = message;
